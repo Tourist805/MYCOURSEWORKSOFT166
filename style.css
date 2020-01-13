@@ -1,0 +1,51 @@
+#game {
+	width: 540px;
+	height: 540px;
+	background: cornsilk;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	
+	
+}
+
+.block {
+	width: 180px;
+	height: 180px;
+	float: left;
+	border: 20px solid grey;
+	box-sizing: border-box;
+	line-height: 50px;
+	text-align: center;
+	font-size: 150px;
+	text-transform: uppercase;
+}
+h1{
+	text-shadow: 3px 2px blue;
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+table, th, td {
+  border: 1px solid black;
+  /*border-collapse: collapse;*/
+}
+th, td {
+  padding: 5px;
+  text-align: left;    
+  font-size: 15px;
+}
+/* Header/Logo Title */
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+
+/* Page Content */
+.content {padding:20px;}
